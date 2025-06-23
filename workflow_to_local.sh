@@ -8,8 +8,7 @@ echo -n "1..."
 sleep 1
 
 cp fcitx5 /usr/bin/fcitx5
-rm -r  .config/
-mkdir .config
+mkdir ~/.config
 cp -r .config/rofi/ ~/.config/
 cp -r .config/kitty/ ~/.config/
 cp -r .config/fish/ ~/.config/
