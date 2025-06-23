@@ -27,11 +27,12 @@ abbr spr "sudo pacman -Rns"
 abbr spu "sudo pacman -Syu"
 # git
 abbr gad 'git add'
+abbr gad. 'git add .'
 abbr gbn 'git rev-parse --abbrev-ref HEAD'
 abbr gcl 'git clean'
-abbr gcm 'git commit -am '
+abbr gcm 'git commit -m'
 abbr gco 'git checkout'
-abbr gcob 'git checkout -b '
+abbr gcob 'git checkout -b'
 abbr gcod 'git checkout develop'
 abbr gcom 'git checkout master'
 abbr glg 'git log'
