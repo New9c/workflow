@@ -7,6 +7,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk xdg-desktop-portal-gnome xwayland-satellite swaybg swaylock waybar rofi-wayland kitty fish niri obs-studio sddm nvim thunar
+systemctl start sddm.service
 yay -S --noconfirm webcord
 
 echo "I also like other apps, but if you don't want them, just say no"
