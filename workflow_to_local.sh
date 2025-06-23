@@ -7,11 +7,6 @@ sleep 1
 echo -n "1..."
 sleep 1
 
-cp -r .config/starship/ ~/.config/
-cp -r .config/rofi/ ~/.config/
-cp -r .config/kitty/ ~/.config/
-cp -r .config/fish/ ~/.config/
-cp -r .config/waybar/ ~/.config/
-cp -r .config/niri/ ~/.config/
+cp -r .config/ ~/.config/
 echo "Done!"
 sleep 2
