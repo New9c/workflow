@@ -15,10 +15,10 @@ echo ""
 sudo pacman -S --needed gimp 
 yay -S --needed spotify
 
+systemctl enable sddm.service
 echo "Rebooting now, see you soon!"
 echo -n "2..."
 sleep 1
 echo -n "1..."
 sleep 1
-systemctl start sddm.service
 systemctl reboot
