@@ -1,4 +1,5 @@
 echo "We shall now install the most important apps, they kinda need to exist"
+sleep 2
 echo ""
 echo ""
 cp fcitx5 /usr/bin/
@@ -17,4 +18,4 @@ echo -n "2..."
 sleep 1
 echo -n "1..."
 sleep 1
-reboot now
+systemctl reboot

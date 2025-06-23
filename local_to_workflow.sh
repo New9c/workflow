@@ -14,4 +14,4 @@ cp -r ~/.config/kitty/ .config/
 cp -r ~/.config/fish/ .config/
 cp -r ~/.config/niri/ .config/
 echo "Done!"
-sleep 1
+sleep 2
