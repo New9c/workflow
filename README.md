@@ -8,7 +8,7 @@ I currently use Arch BTW, so the install scripts will work best with arch (and m
 If you are me in the future who's laptop exploded, fear not! Make a minimal install on the new hopefully , and I think my config will be in your laptop asap!
 
 ```sh
-sudo pacman -S --needed git base-devel
+sudo pacman -S --noconfirm --needed git base-devel
 git clone https://github.com/New9c/workflow
 cd workflow
 chmod u+x ./install.sh
