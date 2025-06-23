@@ -1,0 +1,6 @@
+    "custom/monitorswap": {
+        "format": " 󱋆 ",
+        "rotate": ${r_deg},
+        "on-click": "monitor_swap.sh"
+    },
+
