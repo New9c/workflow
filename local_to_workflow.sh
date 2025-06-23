@@ -7,7 +7,7 @@ sleep 1
 echo -n "1..."
 sleep 1
 rm -r  .config/
-mkdir .config
+cp -r ~/.config/starship/ .config/
 cp -r ~/.config/rofi/ .config/
 cp -r ~/.config/waybar/ .config/
 cp -r ~/.config/kitty/ .config/
