@@ -12,7 +12,7 @@ set -e
 
 # Path to the theme directory
 THEME_NAME="Arcade"
-THEME_TARGET_DIR="/boot/grub/themes/$THEME_NAME"
+THEME_TARGET_DIR="/boot/grub/themes"
 
 # Copy the theme
 echo "Installing theme to $THEME_TARGET_DIR..."
