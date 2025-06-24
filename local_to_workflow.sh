@@ -6,6 +6,8 @@ echo -n "2..."
 sleep 1
 echo -n "1..."
 sleep 1
+rm -r  fonts/
+cp -r ~/.local/share/fonts/ fonts/
 rm -r  .config/
 cp -r ~/.config/starship/ .config/
 cp -r ~/.config/rofi/ .config/
