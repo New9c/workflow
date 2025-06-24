@@ -1,5 +1,5 @@
+clear
 echo "We shall now install the most important apps, they kinda need to exist"
-sleep 2
 echo ""
 echo ""
 
@@ -30,8 +30,5 @@ yay -S --needed spotify
 
 systemctl enable sddm.service
 echo "Rebooting now, see you soon!"
-echo -n "2..."
-sleep 1
-echo -n "1..."
 sleep 1
 systemctl reboot
