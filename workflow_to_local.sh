@@ -7,7 +7,8 @@ sleep 1
 echo -n "1..."
 sleep 1
 
-cp -r fonts/ ~/.local/share/fonts/ 
-cp -r .config/ ~/.config/
+mkdir -p ~/.local/share/fonts
+cp -r fonts/* ~/.local/share/fonts/
+cp -r .config/* ~/.config/
 echo "Done!"
 sleep 2
