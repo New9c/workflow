@@ -8,5 +8,5 @@ fi
 
 ./workflow_to_local.sh
 ./grub.sh
-./sddm.sh
-./install_programs.sh
+# ./sddm.sh #waiting fix
+./programs.sh
