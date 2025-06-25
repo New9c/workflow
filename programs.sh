@@ -13,7 +13,7 @@ makepkg -si
 cd ..
 rm -rf yay
 
-sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk xdg-desktop-portal-gnome xwayland-satellite swaybg swaylock waybar rofi-wayland kitty fish niri obs-studio sddm thunar firefox fzf eza noto-fonts-emoji z eza alacritty mako starship xclip
+sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk xdg-desktop-portal-gnome xwayland-satellite swaybg swaylock waybar rofi-wayland kitty fish niri obs-studio sddm thunar firefox fzf eza noto-fonts-emoji z eza mako starship xclip fastfetch nano
 chsh -s /usr/bin/fish
 
 # nvim
@@ -22,11 +22,13 @@ git clone https://github.com/New9c/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/
 
 yay -S --noconfirm webcord
 
-echo "I also like other apps, but if you don't want them, just say no"
-echo ""
-echo ""
-sudo pacman -S --needed gimp 
-yay -S --needed spotify
+read -p "Do you wanna install optional programs? [y/N] " confirm
+confirm=${confirm,,}  # Convert to lowercase
+
+if [[ "$confirm" == "y" || "$confirm" == "yes" ]]; then
+  sudo pacman -S --noconfirm --needed gimp nano alacritty 
+  yay -S --noconfirm --needed spotify
+fi
 
 systemctl enable sddm.service
 echo "Rebooting now, see you soon!"
