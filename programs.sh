@@ -13,7 +13,8 @@ makepkg -si
 cd ..
 rm -rf yay
 
-sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk xdg-desktop-portal-gnome xwayland-satellite swaybg swaylock waybar rofi-wayland kitty fish niri obs-studio sddm thunar firefox fzf eza noto-fonts-emoji z eza mako starship xclip fastfetch nano
+sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk xdg-desktop-portal-gnome xwayland-satellite swaybg swaylock waybar kitty fish niri obs-studio sddm thunar firefox fzf eza noto-fonts-emoji z eza mako starship xclip fastfetch nano fuzzel
+# sudo pacman -S --noconfirm --needed rofi-wayland
 chsh -s /usr/bin/fish
 
 # nvim
