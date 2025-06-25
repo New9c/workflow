@@ -360,7 +360,7 @@ binds {
     Mod+Slash { show-hotkey-overlay; }
 
     Alt+Space hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
-    Ctrl+Space hotkey-overlay-title="Run an Application: rofi" { spawn "sh" "-c" "pkill -x rofi || ~/.config/rofi/rofilaunch.sh d"; }
+    Ctrl+Space hotkey-overlay-title="Run an Application: Rofi" { spawn "sh" "-c" "pkill -x rofi || ~/.config/rofi/rofilaunch.sh d"; }
     Mod+Alt+Space { spawn "bash" "-c" "kitty -e nvim"; }
     Mod+E hotkey-overlay-title="Run File Manager" { spawn "thunar"; }
     Mod+B hotkey-overlay-title="Run Browser: Firefox" { spawn "firefox"; }

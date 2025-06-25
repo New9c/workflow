@@ -10,5 +10,7 @@ sleep 1
 mkdir -p ~/.local/share/fonts
 cp -r fonts/* ~/.local/share/fonts/
 cp -r .config/* ~/.config/
+sed -i 's/pkill -x rofi || ~\/.config\/rofi\/rofilaunch.sh d/fuzzel/g' ~/.config/niri/config.kdl
+sed -i 's/ Rofi/ Fuzzel/g' ~/.config/niri/config.kdl
 echo "Done!"
-sleep 2
+sleep 1
