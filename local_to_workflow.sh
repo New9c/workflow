@@ -14,7 +14,7 @@ cp -r ~/.config/waybar/ .config/
 cp -r ~/.config/kitty/ .config/
 cp -r ~/.config/fish/ .config/
 cp -r ~/.config/niri/ .config/
-cp -r ~/.config/rofi/ .config/
+cp -r ~/.config/rofi/ .config/ 
 mkdir .config/starship/
 cp -r ~/.config/starship/starship.toml .config/starship/
 mkdir .config/fastfetch/
