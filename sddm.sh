@@ -1,5 +1,7 @@
-read -p "Install theme for login? Doesn't work well with VMs [y/N] " confirm
+read -p "This does not work :(" confirm
 confirm=${confirm,,}  # Convert to lowercase
+
+exit 1
 
 if [[ "$confirm" != "y" && "$confirm" != "yes" ]]; then
     echo "Ok"
