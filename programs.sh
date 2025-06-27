@@ -14,6 +14,7 @@ cd ..
 rm -rf yay
 
 sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk xdg-desktop-portal-gnome xwayland-satellite swaybg swaylock waybar kitty fish niri obs-studio sddm thunar firefox fzf eza noto-fonts-emoji z eza mako starship xclip fastfetch nano fuzzel
+sudo pacman -S --noconfirm --needed rust rust-src
 # sudo pacman -S --noconfirm --needed rofi-wayland # couldn't get rofi working, using fuzzel instead
 chsh -s /usr/bin/fish
 
